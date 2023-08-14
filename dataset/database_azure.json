@@ -1,0 +1,32 @@
+{
+	"name": "database_azure",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_azuresql",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "varchar"
+			},
+			{
+				"name": "cor",
+				"type": "varchar"
+			},
+			{
+				"name": "datacarga",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "tb_csv_cor"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,9 @@
+{
+	"name": "adf-curso-engdados",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ccb032fd-ecd7-42a4-bb34-4e4038dcf2d1",
+		"tenantId": "78e9b031-3129-4cc3-9b90-3aa9b4764c78"
+	}
+}
